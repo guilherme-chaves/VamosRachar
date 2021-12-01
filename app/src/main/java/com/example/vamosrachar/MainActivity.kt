@@ -78,11 +78,7 @@ class MainActivity : AppCompatActivity(), TextToSpeech.OnInitListener, TextWatch
             intent.type = "text/plain"
             intent.putExtra(
                 Intent.EXTRA_TEXT,
-                getString(R.string.text_intent)
-                    .format(finalValueField.text.toString()
-                        .replace(getString(R.string.currency),"").trim(),
-                        getString(R.string.currency_name)
-                    )
+                getString(R.string.text_intent).format(finalValueField.text.toString())
             )
             startActivity(Intent.createChooser(intent, getString(R.string.intent_choose_text)))
         }

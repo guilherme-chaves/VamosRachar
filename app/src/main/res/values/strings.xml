@@ -13,6 +13,6 @@
     <string name="error_group_value">The number of people shouldn\'t be zero or negative!</string>
     <string name="error_tts_not_supported">Your device doesn\'t support the TextToSpeech function!</string>
     <string name="text_to_speak">The amount to be paid is %1$s for each person</string>
-    <string name="text_intent">The amout for each person is %1$s %2$s. Let\'s split?</string>
+    <string name="text_intent">The amount for each person is %1$s. Let\'s split?</string>
     <string name="intent_choose_text">Choose an app to share the amount!</string>
 </resources>

@@ -13,7 +13,7 @@
     <string name="error_empty">Algum dos campos está vazio!</string>
     <string name="error_group_value">O número de pessoas não pode ser 0 ou negativo!</string>
     <string name="text_to_speak">O valor a ser pago é de %1$s para cada pessoa</string>
-    <string name="text_intent">O valor da conta para cada pessoa fica %1$s %2$s. Vamos rachar?</string>
+    <string name="text_intent">O valor da conta para cada pessoa fica %1$s. Vamos rachar?</string>
     <string name="intent_choose_text">Escolha uma forma de compartilhar o valor!</string>
     <string name="error_tts_not_supported">O seu dispositivo não suporta a função TextToSpeech!</string>
 </resources>
