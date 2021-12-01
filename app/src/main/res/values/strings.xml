@@ -6,9 +6,9 @@
     <string name="currency_format">USD</string>
     <string name="currency_name">dollars</string>
     <string name="button_text">Calculate</string>
-    <string name="button_label">Click here to calculate what each person should pay</string>
-    <string name="share_label">Click here to share the amount on another app</string>
-    <string name="speak_label">Click here to make the app spell what each person should pay</string>
+    <string name="button_label">Press here to calculate what each person should pay</string>
+    <string name="share_label">Press here to share the amount on another app</string>
+    <string name="speak_label">Press to make the app spell what each person should pay</string>
     <string name="error_empty">Some of the fields are empty!</string>
     <string name="error_group_value">The number of people shouldn\'t be zero or negative!</string>
     <string name="error_tts_not_supported">Your device doesn\'t support the TextToSpeech function!</string>

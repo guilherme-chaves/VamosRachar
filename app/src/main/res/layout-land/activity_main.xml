@@ -7,18 +7,20 @@
     android:background="@color/yellow_background"
     tools:context=".MainActivity">
 
+
     <TextView
         android:id="@+id/textView"
-        android:layout_width="250dp"
+        android:layout_width="175dp"
         android:layout_height="118dp"
         android:gravity="center"
+        android:importantForAccessibility="no"
         android:outlineProvider="bounds"
         android:text="@string/app_name"
         android:textAlignment="center"
         android:textColor="@color/black"
-        android:textSize="38sp"
+        android:textSize="30sp"
         android:textStyle="bold"
-        app:drawableEndCompat="@drawable/ic_dinheiro_foreground"
+        app:drawableEndCompat="@drawable/ic_outline_monetization_on_36"
         app:drawableTint="@color/black"
         app:flow_horizontalAlign="center"
         app:flow_verticalAlign="center"
@@ -33,7 +35,7 @@
         android:id="@+id/cardView"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="280dp"
+        android:layout_marginStart="200dp"
         app:cardBackgroundColor="@color/white"
         app:cardCornerRadius="10dp"
         app:cardUseCompatPadding="true"
@@ -46,7 +48,8 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:orientation="vertical">
 
             <LinearLayout
@@ -57,10 +60,10 @@
 
                 <EditText
                     android:id="@+id/editTextMoney"
-                    android:layout_width="323dp"
-                    android:layout_height="57dp"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    android:drawableStart="@drawable/ic_round_account_balance_wallet_48"
+                    android:drawableStart="@drawable/ic_outline_account_balance_wallet_36"
                     android:drawablePadding="5dp"
                     android:drawableTint="@color/black"
                     android:ems="8"
@@ -70,15 +73,15 @@
                     android:inputType="numberDecimal"
                     android:lineSpacingExtra="0dp"
                     android:textColorHint="@color/hint_text_color"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
                 <EditText
                     android:id="@+id/editTextGroup"
-                    android:layout_width="323dp"
-                    android:layout_height="57dp"
+                    android:layout_width="240dp"
+                    android:layout_height="50dp"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="20dp"
-                    android:drawableStart="@drawable/ic_round_groups_48"
+                    android:layout_marginTop="18dp"
+                    android:drawableStart="@drawable/ic_outline_groups_36"
                     android:drawablePadding="5dp"
                     android:drawableTint="@color/black"
                     android:ems="10"
@@ -87,7 +90,7 @@
                     android:importantForAutofill="no"
                     android:inputType="numberSigned"
                     android:textColorHint="@color/hint_text_color"
-                    android:textSize="20sp" />
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -101,13 +104,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="26dp"
+                    android:layout_marginTop="18dp"
                     android:textColor="@color/black"
-                    android:textSize="36sp" />
+                    android:textSize="30sp" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="108dp"
+                    android:layout_height="72dp"
                     android:layout_marginTop="12dp"
                     android:dividerPadding="32dp"
                     android:gravity="center"
@@ -119,12 +122,12 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
                         android:clickable="true"
-                        android:contentDescription="@string/speak_label"
+                        android:contentDescription="@string/share_label"
                         android:focusable="true"
                         app:backgroundTint="@color/share_fab_color"
-                        app:fabCustomSize="72dp"
+                        app:fabCustomSize="56dp"
                         app:fabSize="normal"
-                        app:maxImageSize="36dp"
+                        app:maxImageSize="24dp"
                         app:srcCompat="@drawable/ic_baseline_share_56" />
 
                     <View
@@ -142,12 +145,12 @@
                         android:layout_gravity="center_horizontal"
                         android:layout_weight="1"
                         android:clickable="true"
-                        android:contentDescription="@string/share_label"
+                        android:contentDescription="@string/speak_label"
                         android:focusable="true"
                         app:backgroundTint="@color/speak_fab_color"
-                        app:fabCustomSize="72dp"
+                        app:fabCustomSize="56dp"
                         app:fabSize="normal"
-                        app:maxImageSize="36dp"
+                        app:maxImageSize="24dp"
                         app:srcCompat="@drawable/ic_baseline_volume_up_56" />
                 </LinearLayout>
             </LinearLayout>

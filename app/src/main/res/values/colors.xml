@@ -4,11 +4,11 @@
     <color name="purple_500">#FF6200EE</color>
     <color name="purple_700">#FF3700B3</color>
     <color name="teal_200">#FF03DAC5</color>
-    <color name="teal_700">#FF018786</color>
+    <color name="teal_700">#FF018380</color>
     <color name="black">#FF101010</color>
     <color name="white">#FFFAFAFA</color>
     <color name="yellow_background">#FFb0bf78</color>
-    <color name="hint_text_color">#DD676767</color>
+    <color name="hint_text_color">#FF707070</color>
     <color name="share_fab_color">#FF00A068</color>
     <color name="speak_fab_color">#FF00a0a0</color>
 </resources>

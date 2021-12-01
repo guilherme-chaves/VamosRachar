@@ -7,9 +7,9 @@
     <string name="currency_format">BRL</string>
     <string name="currency_name">reais</string>
     <string name="button_text">Calcular</string>
-    <string name="button_label">Clique aqui para calcular o valor que cada pessoa precisa pagar</string>
-    <string name="share_label">Clique aqui para compartilhar o valor em outro aplicativo</string>
-    <string name="speak_label">Clique aqui para falar quanto cada pessoa precisará pagar</string>
+    <string name="button_label">Selecione para calcular o valor que cada pessoa precisa pagar</string>
+    <string name="share_label">Selecione para compartilhar o valor em outro aplicativo</string>
+    <string name="speak_label">Selecione para falar quanto cada pessoa precisará pagar</string>
     <string name="error_empty">Algum dos campos está vazio!</string>
     <string name="error_group_value">O número de pessoas não pode ser 0 ou negativo!</string>
     <string name="text_to_speak">O valor a ser pago é de %1$s para cada pessoa</string>
