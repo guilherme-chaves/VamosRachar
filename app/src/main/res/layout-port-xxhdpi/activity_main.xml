@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginBottom="480dp"
+        android:gravity="center"
+        android:importantForAccessibility="no"
+        android:outlineProvider="bounds"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="38sp"
+        android:textStyle="bold"
+        app:drawableEndCompat="@drawable/ic_dinheiro_foreground"
+        app:drawableTint="@color/black"
+        app:flow_horizontalAlign="center"
+        app:flow_verticalAlign="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintHorizontal_bias="0.61"
+        app:layout_constraintStart_toStartOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.65999997" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="81dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        app:contentPaddingTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_wrapBehaviorInParent="included">
+
+        <EditText
+            android:id="@+id/editTextMoney"
+            android:layout_width="323dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center_horizontal"
+            android:drawableStart="@drawable/ic_round_account_balance_wallet_48"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/black"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="@string/money_value"
+            android:importantForAutofill="no"
+            android:inputType="numberDecimal"
+            android:lineSpacingExtra="0dp"
+            android:textColorHint="@color/hint_text_color"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/editTextGroup"
+            android:layout_width="323dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="87dp"
+            android:drawableStart="@drawable/ic_round_groups_48"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/black"
+            android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="@string/group_size"
+            android:importantForAutofill="no"
+            android:inputType="numberSigned"
+            android:textColorHint="@color/hint_text_color"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/valorFinal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="192dp"
+            android:textColor="@color/black"
+            android:textSize="36sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:layout_marginTop="270dp"
+            android:dividerPadding="32dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/shareActionButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:clickable="true"
+                android:contentDescription="@string/share_label"
+                android:focusable="true"
+                app:backgroundTint="@color/share_fab_color"
+                app:fabCustomSize="72dp"
+                app:fabSize="normal"
+                app:maxImageSize="36dp"
+                app:srcCompat="@drawable/ic_baseline_share_56" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="2dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.2"
+                android:background="?android:attr/listDivider"
+                android:backgroundTint="#00000000" />
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/speakActionButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:contentDescription="@string/speak_label"
+                android:focusable="true"
+                app:backgroundTint="@color/speak_fab_color"
+                app:fabCustomSize="72dp"
+                app:fabSize="normal"
+                app:maxImageSize="36dp"
+                app:srcCompat="@drawable/ic_baseline_volume_up_56" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
